@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.left {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;  
+}
+
+.mr_10 {
+    margin-right: 10px;
+}
