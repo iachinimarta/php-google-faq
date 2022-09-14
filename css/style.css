@@ -12,6 +12,17 @@ body {
     display: flex;
 }
 
+header {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+}
+
 .left {
     justify-content: space-between;
     align-items: center;
@@ -29,7 +40,7 @@ li {
 main {
     width: 80%;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 120px;
     margin-bottom: 50px;
 }
 
